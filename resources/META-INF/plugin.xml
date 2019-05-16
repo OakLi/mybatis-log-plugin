@@ -3,7 +3,6 @@
     <name>MyBatis Log Plugin</name>
     <version>2.0.7</version>
     <vendor email="kookob@gmail.com" url="">ob</vendor>
-
     <description>
     <![CDATA[
       MyBatis Log Plugin
@@ -77,8 +76,6 @@
     </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-    <idea-version since-build="141.0"/>
-
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
     <!-- uncomment to enable plugin in all products

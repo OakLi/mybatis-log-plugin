@@ -6,3 +6,5 @@
 /test
 mybatis.log
 *.jar
+.gradle/
+build/
