@@ -8,3 +8,4 @@ mybatis.log
 *.jar
 .gradle/
 build/
+sandbox/
