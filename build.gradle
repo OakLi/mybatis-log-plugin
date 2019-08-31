@@ -73,7 +73,7 @@ intellij {
 //        pluginId '7415'
 //    }
    
-        plugins 'DatabaseTools','PsiViewer:192-SNAPSHOT','org.jetbrains.plugins.go:192.6262.9.287'
+        plugins 'java','DatabaseTools','PsiViewer:192-SNAPSHOT','org.jetbrains.plugins.go:192.6262.9.287'
    
     sandboxDirectory 'sandbox'
 
@@ -82,7 +82,6 @@ intellij {
 
 patchPluginXml {
     pluginId("com.bruce.GoSqlxPlugin")
-    name("SqlxPlugin")
     version("0.1")
     sinceBuild("181")
 }
@@ -113,8 +112,8 @@ group 'org.jetbrains'
 
 
 dependencies {
-   
-   
+    compile group: 'uk.com.robust-it', name: 'cloning', version: '1.9.3'
+
 }
 
 
