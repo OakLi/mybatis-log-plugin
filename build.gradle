@@ -3,7 +3,7 @@ buildscript {
     ext.myPluginName = 'MybatisLogPlugin'
 
     //162 181 183 172 171 173 191
-    ext.ideaVersion = 191
+    ext.ideaVersion = 201
 
     repositories {
         mavenCentral()
@@ -61,6 +61,8 @@ intellij {
     } else if(ideaVersion == 191){
         version 'IU-2019.1'
 //        version 'IU-2019.1.2'
+    } else if(ideaVersion==201){
+        localPath 'G:\\Program Files\\JetBrains\\IntelliJ IDEA 201.6487.11'
     }
 //    plugins 'coverage' //Bundled plugin dependencies
     pluginName "${myPluginName}"
@@ -71,7 +73,7 @@ intellij {
 //        pluginId '7415'
 //    }
    
-        plugins 'DatabaseTools','PsiViewer:191.4212'
+        plugins 'DatabaseTools'/*,'PsiViewer:191.4212'*/
    
     sandboxDirectory 'sandbox'
 
