@@ -73,7 +73,7 @@ intellij {
 //        pluginId '7415'
 //    }
    
-        plugins 'DatabaseTools'/*,'PsiViewer:191.4212'*/
+        plugins 'DatabaseTools','java'/*,'PsiViewer:191.4212'*/
    
     sandboxDirectory 'sandbox'
 
